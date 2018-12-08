@@ -31,6 +31,14 @@ $(document).ready(function() {
         });
     });
 
+    $('#protecc').click(function() {
+        if ($('#post-1').hasClass('big-post')) {
+            $('#post-1').removeClass('big-post');
+        } else {
+            $('#post-1').addClass('big-post');
+        }
+    });
+
     $('#attacc').click(function() {
         swal('Attacking!!!');
         $('#blog').css('background', 'url("https://amp.thisisinsider.com/images/5ad746638a376dbe528b45a3-750-563.jpg")');
