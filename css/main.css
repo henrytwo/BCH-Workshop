@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: rgb(20, 20, 20) !important;
+}
+
+#blog {
+    text-align: center;
+    padding: 50px;
+
+    background: url("../img/bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#mrgoose {
+    margin-left: auto;
+    margin-right: auto;
+}
+#mrgoose img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.left {
+    text-align: left;
+}
+
+/* For the div */
+.blog-post {
+    border-radius: 30px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 10px;
+
+    padding: 50px;
+    margin: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+    max-width: 800px;
+
+    background-color: aliceblue;
+}
+.blog-post img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: rgb(20, 20, 20);
+    min-height: 300px;
+
+    text-align: center;
+    color: white;
+
+    margin: 0;
+}
